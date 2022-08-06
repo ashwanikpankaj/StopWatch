@@ -24,6 +24,7 @@ export const Timer = () => {
     }, 1000);
   };
   const handleStartPause = () => {
+    console.log('hello');
     setToggle(!toggle);
   };
   const handleReset = () => {
